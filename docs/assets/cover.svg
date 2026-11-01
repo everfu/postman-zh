@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Postman ZH for macOS</title>
+  <desc id="desc">Chinese interface, a local language switch, and a complete restore path. Original project cover with an illustrative settings panel.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#dfe2d9" stroke-width=".6"/></pattern>
+  </defs>
+  <rect width="1280" height="640" rx="24" fill="#f1f2eb"/>
+  <rect width="1280" height="640" rx="24" fill="url(#grid)"/>
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">
+    <rect x="64" y="58" width="46" height="46" rx="13" fill="#202422"/>
+    <path d="M76 70h16v16H76z" fill="none" stroke="#fff" stroke-width="2"/>
+    <rect x="85" y="80" width="15" height="15" rx="2" fill="#ce6849"/>
+    <text x="126" y="88" font-size="17" font-weight="600" fill="#434b45">INDEPENDENT PROJECT / macOS</text>
+    <text x="60" y="228" font-size="78" font-weight="750" letter-spacing="-4" fill="#202422">Postman ZH</text>
+    <text x="64" y="291" font-size="33" font-weight="600" fill="#202422">熟悉的工具，中文的界面。</text>
+    <text x="64" y="344" font-size="20" fill="#697269">Chinese UI. Local choice. Full restore.</text>
+    <path d="M64 396h520" stroke="#cbd0c4"/>
+    <g fill="#3d493e" font-size="18">
+      <text x="64" y="443">01  一键安装</text><text x="248" y="443">02  设置内切换</text><text x="64" y="480">03  完整备份</text><text x="248" y="480">04  随时恢复</text>
+    </g>
+    <text x="64" y="578" font-size="16" fill="#697269">github.com/everfu/postman-zh</text>
+    <g transform="translate(664 154)">
+      <rect width="552" height="362" rx="18" fill="#202422"/>
+      <path d="M0 48h552" stroke="#424a42"/>
+      <circle cx="22" cy="24" r="4" fill="#c3c9bd"/><circle cx="38" cy="24" r="4" fill="#697269"/><circle cx="54" cy="24" r="4" fill="#697269"/>
+      <text x="92" y="29" font-size="13" fill="#cbd2c7">SETTINGS / 界面示意</text>
+      <text x="30" y="101" font-size="23" font-weight="600" fill="#f2f3ed">界面语言</text>
+      <rect x="30" y="126" width="492" height="56" rx="8" fill="#30382f" stroke="#65705f"/>
+      <text x="48" y="161" font-size="20" fill="#fff">简体中文</text>
+      <path d="m484 149 7 7 7-7" fill="none" stroke="#dce2d5" stroke-width="2"/>
+      <text x="30" y="217" font-size="14" fill="#b7c0b1">仅切换本机界面。你的请求内容保持原样。</text>
+      <rect x="30" y="252" width="186" height="48" rx="8" fill="#dc795b"/>
+      <text x="52" y="282" font-size="17" font-weight="600" fill="#1d241e">保存并重新加载</text>
+      <path d="M30 326h492" stroke="#424a42"/>
+    </g>
+    <rect x="1094" y="555" width="122" height="32" rx="16" fill="#e2e5da"/>
+    <text x="1155" y="577" font-size="13" text-anchor="middle" fill="#4c594c">非官方工具</text>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+{
+  "name": "postman-zh-macos",
+  "version": "1.1.0",
+  "private": true,
+  "description": "macOS Postman 一键中文界面与本地语言切换",
+  "license": "MIT",
+  "author": "everfu (https://github.com/everfu)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everfu/postman-zh.git"
+  },
+  "homepage": "https://github.com/everfu/postman-zh#readme",
+  "bugs": {
+    "url": "https://github.com/everfu/postman-zh/issues"
+  },
+  "keywords": [
+    "postman",
+    "macos",
+    "chinese",
+    "localization",
+    "electron",
+    "asar"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "check": "node scripts/check.cjs",
+    "doctor": "node src/cli.cjs --check",
+    "test": "node --test test/*.test.cjs",
+    "verify": "npm run check && npm test",
+    "package": "node scripts/package.cjs",
+    "test:package": "node scripts/check-package.cjs"
+  },
+  "devDependencies": {
+    "@electron/asar": "4.3.1",
+    "jsdom": "26.1.0"
+  },
+  "overrides": {
+    "glob": "14.0.3",
+    "minimatch": "11.0.3"
+  }
+}

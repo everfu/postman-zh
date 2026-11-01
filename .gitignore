@@ -1,0 +1,11 @@
+node_modules/
+.research/
+.DS_Store
+dist/
+*.log
+coverage/
+.env
+.env.*
+*.asar
+*.app/
+*.lock.tmp

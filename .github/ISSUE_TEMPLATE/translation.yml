@@ -1,0 +1,17 @@
+name: 翻译建议 / Translation
+description: 提交固定界面文案的漏译或术语改进。
+title: '[Translation] '
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: 工具版本、Postman 版本及页面
+    validations:
+      required: true
+  - type: textarea
+    id: wording
+    attributes:
+      label: 原文、建议译文与上下文
+      description: 不要将用户创建的请求名、集合名、环境名或响应数据作为漏译。
+    validations:
+      required: true

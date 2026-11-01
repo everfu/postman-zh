@@ -1,0 +1,40 @@
+name: 问题反馈 / Bug report
+description: 报告安装、恢复、布局或汉化问题。
+title: '[Bug] '
+body:
+  - type: markdown
+    attributes:
+      value: 请提供最小复现，不要上传真实令牌、请求体、私有地址、账号头像或整份 Postman 应用。
+  - type: input
+    id: tool-version
+    attributes:
+      label: Postman ZH 版本
+      description: 可通过 ./postman-zh.command --version 查看。
+    validations:
+      required: true
+  - type: input
+    id: postman-version
+    attributes:
+      label: Postman 版本
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS 版本与芯片架构
+      placeholder: 例如 Apple Silicon / Intel，以及系统版本
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤与实际结果
+      description: 说明页面、操作顺序、预期结果。截图请先去除账号和业务信息。
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 脱敏后的诊断信息
+      description: 可附 --status 输出；请去除个人目录、账号、令牌和业务信息。
+      render: text

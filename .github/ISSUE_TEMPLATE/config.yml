@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安装、恢复与兼容性
+    url: https://github.com/everfu/postman-zh/blob/main/docs/installation.md
+    about: 先查看使用指南与已知验证范围。
+  - name: 私密安全反馈
+    url: https://github.com/everfu/postman-zh/security/advisories/new
+    about: 请勿在公开问题中提交敏感信息。

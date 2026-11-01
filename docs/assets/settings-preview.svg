@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">语言切换与设置布局示意</title>
+  <desc id="desc">An original illustration, not a screenshot. Settings navigation stays in its own column; the local language switch appears below the content heading.</desc>
+  <rect width="1200" height="600" rx="18" fill="#f1f2eb"/>
+  <g font-family="Inter, -apple-system, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">
+    <text x="48" y="52" font-size="14" fill="#687265">POSTMAN ZH / 功能示意 · 非运行截图</text>
+    <rect x="48" y="82" width="1104" height="458" rx="14" fill="#202422"/>
+    <path d="M282 82v458" stroke="#424a42"/>
+    <rect x="70" y="109" width="190" height="46" rx="8" fill="#343d32"/>
+    <g font-size="18" fill="#aeb8a7"><text x="100" y="140" fill="#fff">常规</text><text x="100" y="201">主题</text><text x="100" y="262">快捷键</text><text x="100" y="323">AI</text><text x="100" y="384">数据</text><text x="100" y="445">关于</text></g>
+    <text x="316" y="140" font-size="27" font-weight="600" fill="#fff">常规</text>
+    <text x="316" y="210" font-size="18" font-weight="600" fill="#fff">界面语言</text>
+    <rect x="688" y="177" width="200" height="48" rx="6" fill="#30382f" stroke="#75816f"/>
+    <text x="710" y="207" font-size="17" fill="#fff">简体中文</text>
+    <path d="m854 196 6 6 6-6" stroke="#dce2d5" stroke-width="2" fill="none"/>
+    <rect x="906" y="177" width="210" height="48" rx="6" fill="#dc795b"/>
+    <text x="931" y="207" font-size="17" font-weight="600" fill="#202422">保存并重新加载</text>
+    <text x="316" y="264" font-size="15" fill="#abb7a2">仅切换本机界面。跟随官方语言时恢复原版界面。</text>
+    <path d="M316 290h800" stroke="#424a42"/>
+    <text x="316" y="337" font-size="21" font-weight="600" fill="#f2f3ed">请求</text>
+    <text x="316" y="386" font-size="17" fill="#e4e9de">HTTP 版本</text><text x="1050" y="386" font-size="17" fill="#c5cebc">自动</text>
+    <path d="M316 413h800" stroke="#424a42"/>
+    <text x="316" y="461" font-size="17" fill="#e4e9de">请求超时时间</text><text x="1042" y="461" font-size="17" fill="#c5cebc">0 ms</text>
+    <text x="48" y="577" font-size="14" fill="#687265">独立导航列 · 不覆盖正文 · 保留原有请求和集合名称</text>
+  </g>
+</svg>
