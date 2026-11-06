@@ -36,6 +36,14 @@ test('modern grid settings mount below the header in the right column without al
   assert.equal(document.querySelector('.settings-container').children.length, 2);
 });
 
+test('language control preserves its theme-aware separator and transparent background', async t => {
+  const { document } = fixture(t);
+  await tick();
+  const row = document.querySelector('[data-postman-zh="language"]');
+  assert.match(row.style.getPropertyValue('border-bottom'), /var\(--border-color-default,/);
+  assert.equal(row.style.getPropertyValue('background-color'), 'transparent');
+});
+
 test('a misplaced old language row is relocated and unknown layouts are left untouched', async t => {
   const { document } = fixture(t);
   const old = document.createElement('section'); old.dataset.postmanZh = 'language';
